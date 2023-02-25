@@ -248,7 +248,7 @@ section header > h2 {
 .contact-details {
   border: 1px white solid;
   border-radius: 30px;
-  padding: 38px 0 59px 40px;
+  padding: 28px 40px 0;
 }
 
 .contact-details ul {
@@ -263,10 +263,17 @@ section header > h2 {
 }
 
 .contact-details h3 {
+  font-size: 35px;
   margin: 0;
 }
 
-.contact-details p {
+.contact-italics {
+  font-size: 40px;
+  font-family: "Mr Dafoe", cursive;
+}
+
+.contact-tagline {
+  font-size: 17px;
   margin: 10px 0;
 }
 
@@ -286,6 +293,7 @@ label {
 textarea {
   border: 1px solid white;
   outline: none;
+  width: 90%;
   margin: 20px 0;
   background: transparent;
   border-radius: 30px;
@@ -293,8 +301,14 @@ textarea {
   color: #fff;
 }
 
+::placeholder {
+  padding-top: 20px;
+  opacity: 0.3;
+  color: white;
+}
+
 .contact-input {
-  width: 100%;
+  width: 90%;
   height: 60px;
   border: 1px solid white;
   outline: none;
@@ -311,11 +325,6 @@ textarea {
   position: fixed;
   background-color: rgb(199, 162, 117);
   border-left: 1px solid white;
-}
-
-.contact-italics {
-  font-size: 40px;
-  font-family: "Mr Dafoe", cursive;
 }
 
 .icons-container {
