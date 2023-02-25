@@ -9,6 +9,12 @@
       src="https://kit.fontawesome.com/1363a4500d.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -375,7 +381,7 @@
                 <div>
                   <div class="form-holder">
                     <div class="input-wrapper">
-                      <div>
+                      <div class="contact-holder">
                         <label for="">Fullname*</label>
                         <input
                           type="text"
@@ -383,23 +389,29 @@
                           class="contact-input"
                         />
                       </div>
-                      <div>
-                        <label for="">Fullname*</label>
+                      <div class="contact-holder">
+                        <label for="">Email*</label>
                         <input
                           type="text"
-                          placeholder="Idayat Sanni"
+                          placeholder="example:idayatsanni@gmail.com"
                           class="contact-input"
                         />
                       </div>
-                      <div>
-                        <label for="">Email Address*</label>
-                        <input
-                          type="email"
-                          placeholder="Idayat Sanni"
-                          class="contact-input"
-                        />
+                      <div class="contact-holder">
+                        <label for="">Message*</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
                       </div>
                     </div>
+                  </div>
+                  <div>
+                    <input
+                      type="submit"
+                      name=""
+                      id=""
+                      value="Contact Me"
+                      class="contact-input"
+                      placeholder="To write"
+                    />
                   </div>
                 </div>
                 <div>
@@ -414,6 +426,8 @@
                       <li><strong>ADDRESS:</strong> Lagos</li>
                       <li><strong>EMAIL:</strong> idayatsanni@gmail.com</li>
                     </ul>
+
+                    <p class="contact-italics">Idayat Sanni</p>
                   </div>
                 </div>
               </div>
@@ -424,9 +438,11 @@
 
       <div class="social-links">
         <div class="social-wrapper">
-          <i class="fa-brands fa-square-instagram fa-2x services-icon"></i>
-          <i class="fa-brands fa-twitter fa-2x services-icon"></i>
-          <i class="fa-brands fa-github fa-2x services-icon"></i>
+          <div class="icons-container">
+            <i class="fa-brands fa-square-instagram fa-2x services-icon"></i>
+            <i class="fa-brands fa-twitter fa-2x services-icon"></i>
+            <i class="fa-brands fa-github fa-2x services-icon"></i>
+          </div>
         </div>
       </div>
     </main>

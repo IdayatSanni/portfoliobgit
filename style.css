@@ -248,7 +248,7 @@ section header > h2 {
 .contact-details {
   border: 1px white solid;
   border-radius: 30px;
-  padding: 10px 40px;
+  padding: 38px 0 59px 40px;
 }
 
 .contact-details ul {
@@ -270,17 +270,27 @@ section header > h2 {
   margin: 10px 0;
 }
 
-.input-wrapper {
+.contact-holder {
   position: relative;
 }
 
 label {
   position: absolute;
-  top: -7px;
+  top: 11px;
   left: 20px;
   background-color: rgb(199, 162, 117);
   padding: 0 5px;
   z-index: 2;
+}
+
+textarea {
+  border: 1px solid white;
+  outline: none;
+  margin: 20px 0;
+  background: transparent;
+  border-radius: 30px;
+  padding: 0 30px;
+  color: #fff;
 }
 
 .contact-input {
@@ -301,4 +311,22 @@ label {
   position: fixed;
   background-color: rgb(199, 162, 117);
   border-left: 1px solid white;
+}
+
+.contact-italics {
+  font-size: 40px;
+  font-family: "Mr Dafoe", cursive;
+}
+
+.icons-container {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+}
+
+.icons-container i {
+  margin-bottom: 20px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 30px;
 }
